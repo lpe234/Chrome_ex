@@ -1,0 +1,30 @@
+{
+	"name":"block baidu player ads",
+	"version":"1.0",
+	"description":"easy to music. disable to block pause-ad!!!",
+	
+	"content_scripts":[
+	{
+		"matches":["*://play.baidu.com/*"],
+		"js":["javascript/jquery.js","javascript/until.js"]
+	}
+	],
+
+	"page_action":{
+		"default_icon":"images/logo.png",
+		"default_title":"good without ads"
+	},
+
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"*://play.baidu.com/*"
+			],
+	
+	"icons":{
+		"16":"images/logo.png",
+		"48":"images/logo.png",
+		"128":"images/logo.png"
+	},
+	"manifest_version":2
+}
