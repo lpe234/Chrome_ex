@@ -3,7 +3,7 @@ Chrome_ex
 
 block baidu player ads
 
-屏蔽百度网页音乐播放器(http://play.baidu.com/)，并对布局进行小优化
+屏蔽百度网页音乐播放器，并对布局进行小优化  http://play.baidu.com/
 
 原理：监测浏览器访问URL，然后执行本地js代码，对广告进行屏蔽
       代码多次修改，比较混乱
