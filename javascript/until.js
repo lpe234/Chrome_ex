@@ -49,3 +49,8 @@ column3.css("width",360);
 
 $('#lrcResize').css("z-index","-10");
 column3.css("z-index",0);
+
+/*--------------- add 2014年5月6日18:16:27 -----------------*/
+$('.m-client-product').css("display","none");
+$('.playlist-length-cloud').css("bottom","0px");
+$('.leftbar-outer').css("height","100%");
